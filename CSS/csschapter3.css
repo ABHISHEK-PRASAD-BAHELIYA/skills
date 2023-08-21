@@ -1,0 +1,41 @@
+div {
+    height: 200px;
+    width: 500px;
+    background-color: skyblue;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+div {
+    border: 5px solid black;
+    
+}
+h1 {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: blue;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+h1{
+    height: 50px;
+    width: 480px;
+border: 3px solid green;
+border-top-color: yellow ;
+border-top-style: double;
+padding-top: 10px;
+padding-left: 30px;
+}
+button {
+    background-color: yellowgreen
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 2px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}

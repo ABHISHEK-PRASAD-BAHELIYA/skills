@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    border: solid;
+    font-weight: 400;
+    text-decoration:wavy double red underline;
+    font-size: 30px;
+
+}
+p {
+    text-align: justify;
+    font-weight: 500;
+    text-decoration:double overline;
+    line-height: 2.5;
+    font-family: Brush Script MT, cursive, Arial, Helvetica, sans-serif;
+
+}
+h2 {
+    text-align: start;
+    text-decoration: double overline;
+    letter-spacing: 6px;
+    font-size: 10px;
+}

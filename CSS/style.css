@@ -1,0 +1,12 @@
+
+        h1 {
+            color: rgb(29, 78, 215); 
+            background-color: rgb(24, 175, 186);
+        } 
+        p {
+            color: blueviolet;
+        }
+        button {
+            color: yellow;
+            background-color: black;
+        }

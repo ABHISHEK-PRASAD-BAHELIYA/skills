@@ -1,0 +1,80 @@
+/*
+div {
+    height: 200px;
+    width: 200px;
+    background-color:rgba(0, 255, 0, 1);
+}
+div:hover {
+    background-color: black;
+    transition-duration: 2s;
+    transition-delay: 3s;
+    border-radius: 50%;
+}
+
+#opacity {
+    background-color: #ffa511;
+    opacity: 0.58;
+}
+#opacity:hover {
+    background-color: blueviolet;
+    border-radius: 20%;
+    transition: 3s 3s;
+}
+#Abhi {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease 0.2s;
+}
+#Abhi:hover {
+    margin-top: 400px;
+    background-color: pink;
+}*/
+section {
+    margin-top: 100px;
+}
+div {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}
+/* rotate*/
+#one {
+    transform: rotate(45deg);
+}
+/* scale */
+#two {
+    transform: scale(0.5, 1);
+}
+/* translate */
+#three {
+ transform: translate(100px, 100px);
+}
+#four {
+    transform: translatex(-100px);
+}
+/* skew */
+#five {
+    transform: translatex(150px) rotate(30deg);
+}
+#special {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 5px 5px 20px black;
+
+}
+

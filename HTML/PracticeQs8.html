@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox practise</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" name="age" id="age" checked/>
+        <label for="age"> I am 18+</label><hr>
+        <div>
+            <input type="radio" name="fruit" id="Apple">
+            <label for="Apple">Apple</label><br>
+            <input type="radio" name="fruit" id="Banana">
+            <label for="Banana">Banana</label><br>
+            <input type="radio" name="fruit" id="mango">
+            <label for="mango">mango</label> <br>
+            <input type="radio" name="fruit" id="orange">
+            <label for="orange">orange</label>
+        </div>
+        <hr>
+        <div>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="others">
+            <label for="others">others</label>
+        </div>
+        <br><hr>
+        <div>
+        Select subject According to intrest:
+        <input type="checkbox" name="subject" id="maths" value="math"/>
+        <label for="maths">maths</label>
+        <input type="checkbox" name="subject" id="English" value="Eng"/>
+        <label for="english">english</label>
+        <input type="checkbox" name="subject" id="Hindi" value="Hindi"/>
+        <label for="Hindi">Hindi</label>
+        </div><br><hr>
+        <div>
+            Where are you live?
+            <select name="Place" id="place">
+                <option value="Mathura">Mathura</option>
+                <option value="Delhi">Delhi</option>
+                <option value="kosi kalan" selected>kosi kalan</option>
+                <option value="satna">satna</option>
+                <option value="Bhopal">Bhopal</option>
+            </select>
+        </div><br><hr>
+        <div>
+            <label for="volume"> select your volume level:</label>
+            <input type="range" id="vol" name="vol" min="0" max="100" step="10">
+        </div><br><hr>
+        <div>
+            <label for="feedback">Please provide valuable feedback:</label>
+            <textarea id="feedback" name="feedback" placeholder="write down you feedback!"></textarea>
+        </div>
+        <button>sumit</button>
+    </form>
+</body>
+</html>

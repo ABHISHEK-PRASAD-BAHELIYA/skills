@@ -1,0 +1,43 @@
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: blueviolet;
+    display: inline-grid;
+    /*grid-template-rows:50px 50px 50px ;
+    grid-template-columns: 200px 200px;
+    grid-template-rows:repeat(5, 1fr );
+    anoter way to write grid*/
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-columns: repeat(3,1fr);
+   /* row-gap: 20px;
+    column-gap: 30px;*/
+    grid-gap:  30px 30px;
+    justify-items:center;
+    align-item: end;
+}
+.item {
+    height: 50px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    justify-items: center;
+}
+#one {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#five {
+    grid-column: 1/4;
+}/*
+#three {
+    grid-column: 1/span 3;
+}*/
+#three {
+    grid-row:1/3 ;
+}
+#one {
+    justify-content: center;
+    align-items: end;
+}
